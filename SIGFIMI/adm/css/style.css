@@ -1,0 +1,124 @@
+body{
+    font: 15px Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+header{
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #339900;
+}
+
+.cabecera_1{
+    width: 8%;
+    height: 100%;
+    float: left;
+    background: #24282b;
+    text-align: center;
+}
+.cabecera_1 img{
+    width: auto;
+    height: 65%;
+    margin: 10px auto;
+    padding: 1px;
+}
+.cabecera_2{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: #24282b;
+    text-align: left;
+}
+.cabecera_2 h2{
+    color: #FFBF00;
+}
+.cabecera_3{
+    width: 70%;
+    height: 100%;
+    float: left;
+    background: #24282b;
+    text-align: center;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    width: 130px;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+header ul li a:hover{
+    color: #FFBF00;
+}
+
+
+nav{
+    width: 15%;
+    height: 600px;
+    float: left;
+    background: #24282b;
+    color: #FFBF00;
+
+}
+h1{
+    text-align: center;
+    margin: 15px 0;
+    text-shadow: 1px 1px 2px black;
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    background-color: #24282b;
+    border-left: 10px solid #FFBF00;
+}
+main{
+    width: 80%;
+    height: 600px;
+    background: #fff;
+    float: left;
+}
+main iframe{
+    width: 110%;
+    height: 110%;
+    border: 0px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    float: left;
+    color: #fff;
+    background-color: #339900;
+    text-align: center;
+    padding: 10px;
+}
+
